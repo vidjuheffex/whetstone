@@ -27,7 +27,7 @@ exports = async function() {
   
   teams.forEach((team) => {
 
-    if (calcTime(team.gmtOffset) === 11) {
+    if (calcTime(team.gmtOffset) === 9) {
       context.http.post({
         url: team.incomingWebhook.url,
         body: {text},
