@@ -1,10 +1,10 @@
 {
-  "id": "5d647f923dfad1d7976e9ee7",
-  "name": "hourlyDispatch",
-  "type": "SCHEDULED",
-  "config": {
-    "schedule": "0 */1 * * Mon-Fri"
-  },
-  "function_name": "dispatchChallenges",
-  "disabled": false
+    "id": "5d647f923dfad1d7976e9ee7",
+    "name": "hourlyDispatch",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "0 */1 * * Mon-Fri"
+    },
+    "function_name": "dispatchChallenges",
+    "disabled": false
 }

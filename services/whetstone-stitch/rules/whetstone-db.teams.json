@@ -1,21 +1,21 @@
 {
-  "id": "5d6407d5eb6ef225dcc2eb70",
-  "database": "whetstone-db",
-  "collection": "teams",
-  "roles": [
-    {
-      "name": "default",
-      "apply_when": {},
-      "insert": true,
-      "delete": true,
-      "additional_fields": {}
+    "id": "5d6407d5eb6ef225dcc2eb70",
+    "database": "whetstone-db",
+    "collection": "teams",
+    "roles": [
+        {
+            "name": "default",
+            "apply_when": {},
+            "insert": true,
+            "delete": true,
+            "additional_fields": {}
+        }
+    ],
+    "schema": {
+        "properties": {
+            "_id": {
+                "bsonType": "objectId"
+            }
+        }
     }
-  ],
-  "schema": {
-    "properties": {
-      "_id": {
-        "bsonType": "objectId"
-      }
-    }
-  }
 }

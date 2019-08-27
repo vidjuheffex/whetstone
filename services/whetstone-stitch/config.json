@@ -1,11 +1,11 @@
 {
-  "id": "5d572cf465121dcd2c54a562",
-  "name": "whetstone-stitch",
-  "type": "mongodb-atlas",
-  "config": {
-    "clusterName": "whetstone-cluster",
-    "readPreference": "primary",
-    "wireProtocolEnabled": false
-  },
-  "version": 1
+    "id": "5d572cf465121dcd2c54a562",
+    "name": "whetstone-stitch",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "whetstone-cluster",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
 }
